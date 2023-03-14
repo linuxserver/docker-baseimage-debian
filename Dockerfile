@@ -23,6 +23,10 @@ RUN \
   tar xf \
     /rootfs.tar.gz -C \
     /root-out && \
+  echo "path-exclude=/usr/share/man/*" > /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
+  echo "path-exclude=/usr/share/locale/*/LC_MESSAGES/*.mo" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
+  echo "path-exclude=/usr/share/doc/*" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
+  echo "path-include=/usr/share/doc/*/copyright" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
   rm -rf \
     /root-out/var/log/*
 
@@ -64,6 +68,37 @@ S6_VERBOSITY=1 \
 S6_STAGE2_HOOK=/docker-mods
 
 RUN \
+  echo "**** Ripped from Ubuntu Docker Logic ****" && \
+  echo '#!/bin/sh' \
+    > /usr/sbin/policy-rc.d && \
+  echo 'exit 101' \
+    >> /usr/sbin/policy-rc.d && \
+  chmod +x \
+    /usr/sbin/policy-rc.d && \
+  dpkg-divert --local --rename --add /sbin/initctl && \
+  cp -a \
+    /usr/sbin/policy-rc.d \
+    /sbin/initctl && \
+  sed -i \
+    's/^exit.*/exit 0/' \
+    /sbin/initctl && \
+  echo 'force-unsafe-io' \
+    > /etc/dpkg/dpkg.cfg.d/docker-apt-speedup && \
+  echo 'DPkg::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' \
+    > /etc/apt/apt.conf.d/docker-clean && \
+  echo 'APT::Update::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' \
+    >> /etc/apt/apt.conf.d/docker-clean && \
+  echo 'Dir::Cache::pkgcache ""; Dir::Cache::srcpkgcache "";' \
+    >> /etc/apt/apt.conf.d/docker-clean && \
+  echo 'Acquire::Languages "none";' \
+    > /etc/apt/apt.conf.d/docker-no-languages && \
+  echo 'Acquire::GzipIndexes "true"; Acquire::CompressionTypes::Order:: "gz";' \
+    > /etc/apt/apt.conf.d/docker-gzip-indexes && \
+  echo 'Apt::AutoRemove::SuggestsImportant "false";' \
+    > /etc/apt/apt.conf.d/docker-autoremove-suggests && \
+  mkdir -p /run/systemd && \
+  echo 'docker' \
+    > /run/systemd/container && \
   echo "**** install apt-utils and locales ****" && \
   apt-get update && \
   apt-get install -y \
@@ -78,6 +113,10 @@ RUN \
     tzdata && \
   echo "**** generate locale ****" && \
   locale-gen en_US.UTF-8 && \
+  rm -Rf /usr/share/locale && \
+  mv /usr/share/i18n/locales/en_US /tmp/ && \
+  rm -Rf /usr/share/i18n/locales/* && \
+  mv /tmp/en_US /usr/share/i18n/locales/ && \
   echo "**** create abc user and make our folders ****" && \
   useradd -u 911 -U -d /config -s /bin/false abc && \
   usermod -G users abc && \
@@ -86,13 +125,14 @@ RUN \
     /config \
     /defaults && \
   echo "**** cleanup ****" && \
-  apt-get autoremove && \
+  apt-get -y autoremove && \
   apt-get clean && \
   rm -rf \
     /tmp/* \
     /var/lib/apt/lists/* \
     /var/tmp/* \
-    /var/log/*
+    /var/log/* \
+    /usr/share/man
 
 # add local files
 COPY root/ /

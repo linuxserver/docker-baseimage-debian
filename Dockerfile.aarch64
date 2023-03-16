@@ -23,10 +23,6 @@ RUN \
   tar xf \
     /rootfs.tar.gz -C \
     /root-out && \
-  echo "path-exclude=/usr/share/man/*" > /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
-  echo "path-exclude=/usr/share/locale/*/LC_MESSAGES/*.mo" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
-  echo "path-exclude=/usr/share/doc/*" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
-  echo "path-include=/usr/share/doc/*/copyright" >> /root-out/etc/dpkg/dpkg.cfg.d/excludes && \
   rm -rf \
     /root-out/var/log/*
 
@@ -122,10 +118,6 @@ RUN \
   echo "deb-src http://security.debian.org/debian-security/ bullseye-security main contrib non-free" >> /etc/apt/sources.list && \
   echo "**** generate locale ****" && \
   locale-gen en_US.UTF-8 && \
-  rm -Rf /usr/share/locale && \
-  mv /usr/share/i18n/locales/en_US /tmp/ && \
-  rm -Rf /usr/share/i18n/locales/* && \
-  mv /tmp/en_US /usr/share/i18n/locales/ && \
   echo "**** create abc user and make our folders ****" && \
   useradd -u 911 -U -d /config -s /bin/false abc && \
   usermod -G users abc && \

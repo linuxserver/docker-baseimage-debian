@@ -4,7 +4,7 @@
 project_name: docker-baseimage-debian
 external_type: os
 release_type: stable
-release_tag: bullseye
+release_tag: bookworm
 ls_branch: master
 build_armhf: false
 repo_vars:

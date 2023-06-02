@@ -127,7 +127,7 @@ ncurses-base            6.2+20201114-2+deb11u1          deb
 ncurses-bin             6.2+20201114-2+deb11u1          deb   
 netcat                  1.10-46                         deb   
 netcat-openbsd          1.217-3                         deb   
-openssl                 1.1.1n-0+deb11u4                deb   
+openssl                 1.1.1n-0+deb11u5                deb   
 passwd                  1:4.8.1-1                       deb   
 perl-base               5.32.1-4+deb11u2                deb   
 pinentry-curses         1.1.0-4                         deb   

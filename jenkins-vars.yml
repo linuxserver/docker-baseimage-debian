@@ -3,9 +3,9 @@
 # jenkins variables
 project_name: docker-baseimage-debian
 external_type: os
-release_type: stable
+release_type: prerelease
 release_tag: bullseye
-ls_branch: master
+ls_branch: bullseye
 build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'OS'

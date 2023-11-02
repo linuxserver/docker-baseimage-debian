@@ -106,6 +106,7 @@ RUN \
     locales && \
   echo "**** install packages ****" && \
   apt-get install -y \
+    cron \
     curl \
     gnupg \
     jq \

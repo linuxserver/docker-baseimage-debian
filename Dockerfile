@@ -101,7 +101,7 @@ RUN \
     > /run/systemd/container && \
   echo "**** install apt-utils and locales ****" && \
   apt-get update && \
-  apt-get upgrade && \
+  apt-get upgrade -y && \
   apt-get install -y \
     apt-utils \
     locales && \

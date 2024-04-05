@@ -5,7 +5,7 @@ apt-utils               2.2.4                           deb
 base-files              11.1+deb11u9                    deb     
 base-passwd             3.5.51                          deb     
 bash                    5.1-2+deb11u1                   deb     
-bsdutils                1:2.36.1-8+deb11u1              deb     
+bsdutils                1:2.36.1-8+deb11u2              deb     
 ca-certificates         20210119                        deb     
 coreutils               8.32-4+b1                       deb     
 cron                    3.0pl1-137                      deb     
@@ -47,7 +47,7 @@ libassuan0              2.5.3-7.1                       deb
 libattr1                1:2.4.48-6                      deb     
 libaudit-common         1:3.0-2                         deb     
 libaudit1               1:3.0-2                         deb     
-libblkid1               2.36.1-8+deb11u1                deb     
+libblkid1               2.36.1-8+deb11u2                deb     
 libbrotli1              1.0.9-2+b2                      deb     
 libbsd0                 0.11.3-1+deb11u1                deb     
 libbz2-1.0              1.0.8-4                         deb     
@@ -92,7 +92,7 @@ liblzma5                5.2.5-2.1~deb11u1               deb
 libmailutils7           1:3.10-3+b1                     deb     
 libmariadb3             1:10.5.23-0+deb11u1             deb     
 libmd0                  1.0.3-3                         deb     
-libmount1               2.36.1-8+deb11u1                deb     
+libmount1               2.36.1-8+deb11u2                deb     
 libmpdec3               2.5.1-1                         deb     
 libncurses6             6.2+20201114-2+deb11u2          deb     
 libncursesw6            6.2+20201114-2+deb11u2          deb     
@@ -123,7 +123,7 @@ libselinux1             3.1-3                           deb
 libsemanage-common      3.1-1                           deb     
 libsemanage1            3.1-1+b2                        deb     
 libsepol1               3.1-1                           deb     
-libsmartcols1           2.36.1-8+deb11u1                deb     
+libsmartcols1           2.36.1-8+deb11u2                deb     
 libsqlite3-0            3.34.1-3                        deb     
 libss2                  1.46.2-2                        deb     
 libssh2-1               1.9.0-2                         deb     
@@ -137,7 +137,7 @@ libtirpc3               1.3.1-1+deb11u1                 deb
 libudev1                247.3-7+deb11u4                 deb     
 libunbound8             1.13.1-1+deb11u2                deb     
 libunistring2           0.9.10-4                        deb     
-libuuid1                2.36.1-8+deb11u1                deb     
+libuuid1                2.36.1-8+deb11u2                deb     
 libxxhash0              0.8.0-2                         deb     
 libzstd1                1.4.8+dfsg-2.1                  deb     
 locales                 2.31-13+deb11u8                 deb     
@@ -149,7 +149,7 @@ mailutils-common        1:3.10-3                        deb
 mariadb-common          1:10.5.23-0+deb11u1             deb     
 mawk                    1.3.4.20200120-2                deb     
 media-types             4.0.0                           deb     
-mount                   2.36.1-8+deb11u1                deb     
+mount                   2.36.1-8+deb11u2                deb     
 mysql-common            5.8+1.0.7                       deb     
 ncurses-base            6.2+20201114-2+deb11u2          deb     
 ncurses-bin             6.2+20201114-2+deb11u2          deb     
@@ -168,5 +168,5 @@ sensible-utils          0.0.14                          deb
 sysvinit-utils          2.96-7+deb11u1                  deb     
 tar                     1.34+dfsg-1+deb11u1             deb     
 tzdata                  2024a-0+deb11u1                 deb     
-util-linux              2.36.1-8+deb11u1                deb     
+util-linux              2.36.1-8+deb11u2                deb     
 zlib1g                  1:1.2.11.dfsg-2+deb11u2         deb     

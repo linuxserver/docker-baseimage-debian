@@ -40,7 +40,7 @@ RUN \
     /root-out/var/tmp/* \
     /root-out/var/log/* && \
   echo "**** modify layer repo ****" && \
-  echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list && \
+  echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" > /root-out/etc/apt/sources.list && \
   echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list 
 
 # set version for s6 overlay
@@ -126,6 +126,7 @@ RUN \
     locales && \
   echo "**** install packages ****" && \
   apt-get install -y --no-install-recommends \
+    ca-certificates \
     catatonit \
     cron \
     curl \

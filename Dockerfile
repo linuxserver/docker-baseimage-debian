@@ -1,30 +1,47 @@
 # syntax=docker/dockerfile:1
 
-FROM alpine:3.18 as rootfs-stage
+FROM debian:testing AS rootfs-stage
 
 # environment
-ENV REL=bookworm
 ENV ARCH=amd64
 
 # install packages
 RUN \
-  apk add --no-cache \
-    bash \
+  apt-get update && \
+  apt-get install -y \
     curl \
-    tzdata \
-    xz
+    debootstrap \
+    xz-utils
 
-# grab base tarball
+# create base image with debootstrap
 RUN \
-  mkdir /root-out && \
+  echo "**** modify repo ****" && \
+  echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
+  echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
   curl -o \
-    /rootfs.tar.gz -L \
-    https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-${ARCH}/${REL}/slim/rootfs.tar.xz && \
-  tar xf \
-    /rootfs.tar.gz -C \
-    /root-out && \
+    /etc/apt/trusted.gpg.d/kali-archive-keyring.asc -L \
+    "https://archive.kali.org/archive-key.asc" && \
+  gpg -o \
+    /usr/share/keyrings/kali-archive-keyring.gpg --dearmor \
+    /etc/apt/trusted.gpg.d/kali-archive-keyring.asc && \
+  rm -f /etc/apt/sources.list.d/debian.sources && \
+  apt-get update && \
+  mkdir /root-out && \
+  debootstrap \
+    --variant=minbase \
+    --components=main,contrib,non-free,non-free-firmware \
+    --arch="${ARCH}" \
+    --include=kali-archive-keyring \
+    kali-rolling /root-out http://http.kali.org/kali && \
   rm -rf \
-    /root-out/var/log/*
+    /root-out/tmp/* \
+    /root-out/var/lib/apt/lists/* \
+    /root-out/var/cache/* \
+    /root-out/var/tmp/* \
+    /root-out/var/log/* && \
+  echo "**** modify layer repo ****" && \
+  echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list && \
+  echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list 
 
 # set version for s6 overlay
 ARG S6_OVERLAY_VERSION="3.1.6.2"
@@ -108,24 +125,15 @@ RUN \
     apt-utils \
     locales && \
   echo "**** install packages ****" && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
     catatonit \
     cron \
     curl \
     gnupg \
     jq \
+    kali-defaults \
     netcat-traditional \
     tzdata && \
-  echo "**** add all sources ****" && \
-  echo "deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware" > /etc/apt/sources.list && \
-  echo "deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb http://security.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  echo "deb-src http://security.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
-  rm -f /etc/apt/sources.list.d/debian.sources && \
   echo "**** generate locale ****" && \
   locale-gen en_US.UTF-8 && \
   echo "**** create abc user and make our folders ****" && \

@@ -80,7 +80,7 @@ libmd0                    1.1.0-2                         deb
 libmount1                 2.40.2-1                        deb     
 libncursesw6              6.5-2                           deb     
 libnettle8t64             3.10-1                          deb     
-libnghttp2-14             1.62.1-2                        deb     
+libnghttp2-14             1.63.0-1                        deb     
 libnghttp3-9              1.4.0-1                         deb     
 libngtcp2-16              1.6.0-1                         deb     
 libngtcp2-crypto-gnutls8  1.6.0-1                         deb     

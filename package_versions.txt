@@ -1,7 +1,7 @@
 NAME                      VERSION                         TYPE   
 adduser                   3.137                           deb     
-apt                       2.9.5+kali1                     deb     
-apt-utils                 2.9.5+kali1                     deb     
+apt                       2.9.8+kali1                     deb     
+apt-utils                 2.9.8+kali1                     deb     
 base-files                1:2024.3.1                      deb     
 base-passwd               3.6.4                           deb     
 bash                      5.2.32-1+b1                     deb     
@@ -38,7 +38,7 @@ kali-archive-keyring      2024.1                          deb
 kali-defaults             2024.4.2                        deb     
 libacl1                   2.3.2-2                         deb     
 libapparmor1              3.1.7-1+b1                      deb     
-libapt-pkg6.0t64          2.9.5+kali1                     deb     
+libapt-pkg6.0t64          2.9.8+kali1                     deb     
 libassuan9                3.0.1-2                         deb     
 libattr1                  1:2.5.2-1                       deb     
 libaudit-common           1:3.1.2-4                       deb     

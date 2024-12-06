@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM alpine:3.21 as rootfs-stage
+FROM alpine:3 as rootfs-stage
 
 # environment
 ENV REL=bookworm

@@ -6,7 +6,8 @@ external_type: os
 release_type: stable
 release_tag: bookworm
 ls_branch: master
-build_armhf: false
+image_sbom: true
+image_provenance: true
 repo_vars:
   - BUILD_VERSION_ARG = 'OS'
   - LS_USER = 'linuxserver'

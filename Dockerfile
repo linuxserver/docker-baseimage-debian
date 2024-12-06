@@ -19,7 +19,7 @@ RUN \
   mkdir /root-out && \
   curl -o \
     /rootfs.tar.gz -L \
-    https://github.com/debuerreotype/docker-debian-artifacts/raw/dist-${ARCH}/${REL}/slim/rootfs.tar.xz && \
+    https://github.com/debuerreotype/docker-debian-artifacts/raw/refs/heads/dist-${ARCH}/${REL}/slim/oci/blobs/rootfs.tar.gz && \
   tar xf \
     /rootfs.tar.gz -C \
     /root-out && \

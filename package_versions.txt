@@ -1,7 +1,7 @@
 NAME                      VERSION                         TYPE   
 adduser                   3.137                           deb     
-apt                       2.9.16                          deb     
-apt-utils                 2.9.16                          deb     
+apt                       2.9.17                          deb     
+apt-utils                 2.9.17                          deb     
 base-files                1:2024.4.0                      deb     
 base-passwd               3.6.5                           deb     
 bash                      5.2.37-1                        deb     
@@ -11,7 +11,7 @@ catatonit                 0.2.0-1                         deb
 coreutils                 9.5-1+b1                        deb     
 cron                      3.0pl1-189                      deb     
 cron-daemon-common        3.0pl1-189                      deb     
-curl                      8.11.0-1                        deb     
+curl                      8.11.1-1                        deb     
 dash                      0.5.12-9                        deb     
 debconf                   1.5.87                          deb     
 debian-archive-keyring    2023.4                          deb     
@@ -38,7 +38,7 @@ kali-archive-keyring      2024.1                          deb
 kali-defaults             2024.4.7                        deb     
 libacl1                   2.3.2-2+b1                      deb     
 libapparmor1              3.1.7-1+b3                      deb     
-libapt-pkg6.0t64          2.9.16                          deb     
+libapt-pkg6.0t64          2.9.17                          deb     
 libassuan9                3.0.1-2                         deb     
 libattr1                  1:2.5.2-2                       deb     
 libaudit-common           1:4.0.2-2                       deb     
@@ -54,7 +54,7 @@ libcap-ng0                0.8.5-4                         deb
 libcap2                   1:2.66-5+b1                     deb     
 libcom-err2               1.47.2~rc1-2                    deb     
 libcrypt1                 1:4.4.36-5                      deb     
-libcurl3t64-gnutls        8.11.0-1                        deb     
+libcurl3t64-gnutls        8.11.1-1                        deb     
 libdb5.3t64               5.3.28+dfsg2-9                  deb     
 libdebconfclient0         0.274                           deb     
 libext2fs2t64             1.47.2~rc1-2                    deb     
@@ -91,9 +91,9 @@ libpam-modules            1.5.3-7+b1                      deb
 libpam-modules-bin        1.5.3-7+b1                      deb     
 libpam-runtime            1.5.3-7                         deb     
 libpam0g                  1.5.3-7+b1                      deb     
-libpcre2-8-0              10.44-4                         deb     
+libpcre2-8-0              10.44-5                         deb     
 libpsl5t64                0.21.2-1.1+b1                   deb     
-libreadline8t64           8.2-5                           deb     
+libreadline8t64           8.2-6                           deb     
 librtmp1                  2.4+20151223.gitfa8646d.1-2+b5  deb     
 libsasl2-2                2.1.28+dfsg1-8                  deb     
 libsasl2-modules-db       2.1.28+dfsg1-8                  deb     
@@ -108,11 +108,11 @@ libss2                    1.47.2~rc1-2                    deb
 libssh2-1t64              1.11.1-1                        deb     
 libssl3t64                3.3.2-2                         deb     
 libstdc++6                14.2.0-8                        deb     
-libsystemd-shared         257~rc3-1                       deb     
-libsystemd0               257~rc3-1                       deb     
+libsystemd-shared         257-2                           deb     
+libsystemd0               257-2                           deb     
 libtasn1-6                4.19.0-3+b3                     deb     
 libtinfo6                 6.5-2+b1                        deb     
-libudev1                  257~rc3-1                       deb     
+libudev1                  257-2                           deb     
 libunistring5             1.3-1                           deb     
 libuuid1                  2.40.2-12                       deb     
 libxxhash0                0.8.2-2+b2                      deb     
@@ -131,10 +131,10 @@ openssl-provider-legacy   3.3.2-2                         deb
 passwd                    1:4.16.0-7                      deb     
 perl-base                 5.40.0-8                        deb     
 pinentry-curses           1.2.1-4+b1                      deb     
-readline-common           8.2-5                           deb     
+readline-common           8.2-6                           deb     
 sed                       4.9-2                           deb     
 sensible-utils            0.0.24                          deb     
-systemd                   257~rc3-1                       deb     
+systemd                   257-2                           deb     
 sysvinit-utils            3.11-1                          deb     
 tar                       1.35+dfsg-3                     deb     
 tzdata                    2024b-4                         deb     

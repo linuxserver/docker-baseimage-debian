@@ -4,8 +4,15 @@
 PUID=${PUID:-911}
 PGID=${PGID:-911}
 
-groupmod -o -g "$PGID" abc
-usermod -o -u "$PUID" abc
+if [[ -z ${LSIO_READ_ONLY_FS} ]] && [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    USERHOME=$(grep abc /etc/passwd | cut -d ":" -f6)
+    usermod -d "/root" abc
+
+    groupmod -o -g "${PGID}" abc
+    usermod -o -u "${PUID}" abc
+
+    usermod -d "${USERHOME}" abc
+fi
 
 cat /etc/s6-overlay/s6-rc.d/init-adduser/branding
 

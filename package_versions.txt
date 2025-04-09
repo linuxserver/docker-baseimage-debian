@@ -89,7 +89,7 @@ libldap-common          2.5.13+dfsg-5                   deb
 liblockfile-bin         1.17-1+b1                       deb       
 liblockfile1            1.17-1+b1                       deb       
 liblz4-1                1.9.4-1                         deb       
-liblzma5                5.4.1-0.2                       deb       
+liblzma5                5.4.1-1                         deb       
 libmd0                  1.0.4-2                         deb       
 libmount1               2.38.1-5+deb12u3                deb       
 libncursesw6            6.4-4                           deb       

@@ -143,7 +143,7 @@ netbase                 6.4                             deb
 netcat-traditional      1.10-47                         deb       
 openssl                 3.0.15-1~deb12u1                deb       
 passwd                  1:4.13+dfsg1-1+b1               deb       
-perl-base               5.36.0-7+deb12u1                deb       
+perl-base               5.36.0-7+deb12u2                deb       
 pinentry-curses         1.2.1-1                         deb       
 psmisc                  23.6-1                          deb       
 publicsuffix            20230209.2326-1                 deb       

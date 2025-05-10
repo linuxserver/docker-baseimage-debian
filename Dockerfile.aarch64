@@ -11,6 +11,7 @@ RUN \
   apt-get install -y \
     curl \
     debootstrap \
+    gnupg2 \
     xz-utils
 
 # create base image with debootstrap

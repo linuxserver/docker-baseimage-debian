@@ -7,7 +7,7 @@ base-passwd             3.6.1                           deb
 bash                    5.2.15-2+b8                     deb     
 bsd-mailx               8.1.2-0.20220412cvs-1           deb     
 bsdutils                1:2.38.1-5+deb12u3              deb     
-ca-certificates         20230311                        deb     
+ca-certificates         20230311+deb12u1                deb     
 catatonit               0.1.7-1+b1                      deb     
 coreutils               9.1-1                           deb     
 cron                    3.0pl1-162                      deb     

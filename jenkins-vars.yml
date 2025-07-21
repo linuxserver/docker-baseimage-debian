@@ -4,7 +4,7 @@
 project_name: docker-baseimage-debian
 external_type: os
 release_type: stable
-release_tag: bookworm
+release_tag: trixie
 ls_branch: master
 image_sbom: true
 image_provenance: true

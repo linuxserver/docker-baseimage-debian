@@ -69,8 +69,8 @@ libgc1                  1:8.0.4-3                       deb
 libgcc-s1               10.2.1-6                        deb     
 libgcrypt20             1.8.7-6                         deb     
 libgmp10                2:6.2.1+dfsg-1+deb11u1          deb     
-libgnutls-dane0         3.7.1-5+deb11u7                 deb     
-libgnutls30             3.7.1-5+deb11u7                 deb     
+libgnutls-dane0         3.7.1-5+deb11u8                 deb     
+libgnutls30             3.7.1-5+deb11u8                 deb     
 libgpg-error0           1.38-2                          deb     
 libgpm2                 1.20.7-8                        deb     
 libgsasl7               1.10.0-4+deb11u1                deb     

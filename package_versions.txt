@@ -1,5 +1,5 @@
 NAME                     VERSION                      TYPE   
-adduser                  3.152                        deb     
+adduser                  3.153                        deb     
 apt                      3.1.4+kali1                  deb     
 apt-utils                3.1.4+kali1                  deb     
 base-files               1:2025.3.0                   deb     
@@ -39,8 +39,8 @@ libapparmor1             4.1.0-1                      deb
 libapt-pkg7.0            3.1.4+kali1                  deb     
 libassuan9               3.0.2-2                      deb     
 libattr1                 1:2.5.2-3                    deb     
-libaudit-common          1:4.0.5-1                    deb     
-libaudit1                1:4.0.5-1                    deb     
+libaudit-common          1:4.1.1-1                    deb     
+libaudit1                1:4.1.1-1                    deb     
 libblkid1                2.41.1-1                     deb     
 libbrotli1               1.1.0-2+b7                   deb     
 libbsd0                  0.12.2-2                     deb     
@@ -81,7 +81,7 @@ libnettle8t64            3.10.1-1                     deb
 libnghttp2-14            1.64.0-1.1+b1                deb     
 libnghttp3-9             1.8.0-1                      deb     
 libnpth0t64              1.8-3                        deb     
-libonig5                 6.9.9-1+b1                   deb     
+libonig5                 6.9.10-1                     deb     
 libp11-kit0              0.25.5-3                     deb     
 libpam-modules           1.7.0-5                      deb     
 libpam-modules-bin       1.7.0-5                      deb     

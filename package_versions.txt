@@ -16,7 +16,7 @@ dash                     0.5.12-12                    deb
 debconf                  1.5.91                       deb     
 debian-archive-keyring   2025.1                       deb     
 debianutils              5.23.2                       deb     
-diffutils                1:3.10-4                     deb     
+diffutils                1:3.12-1                     deb     
 dirmngr                  2.4.8-3                      deb     
 dpkg                     1.22.21+kali1                deb     
 findutils                4.10.0-3                     deb     
@@ -33,7 +33,7 @@ hostname                 3.25                         deb
 init-system-helpers      1.69+kali1                   deb     
 jq                       1.8.1-4                      deb     
 kali-archive-keyring     2025.1                       deb     
-kali-defaults            2025.4.0                     deb     
+kali-defaults            2025.4.1                     deb     
 libacl1                  2.3.2-2+b1                   deb     
 libapt-pkg7.0            3.1.8+kali1                  deb     
 libassuan9               3.0.2-2                      deb     
@@ -96,7 +96,7 @@ libseccomp2              2.6.0-2                      deb
 libselinux1              3.8.1-1                      deb     
 libsemanage-common       3.8.1-1                      deb     
 libsemanage2             3.8.1-1                      deb     
-libsepol2                3.8.1-1                      deb     
+libsepol2                3.9-2                        deb     
 libsmartcols1            2.41.2-1                     deb     
 libsqlite3-0             3.46.1-8                     deb     
 libssh2-1t64             1.11.1-1                     deb     

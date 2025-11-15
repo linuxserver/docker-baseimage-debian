@@ -42,10 +42,10 @@ RUN \
     /root-out/var/log/* && \
   echo "**** modify layer repo ****" && \
   echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" > /root-out/etc/apt/sources.list && \
-  echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list 
+  echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /root-out/etc/apt/sources.list
 
 # set version for s6 overlay
-ARG S6_OVERLAY_VERSION="3.1.6.2"
+ARG S6_OVERLAY_VERSION="3.2.1.0"
 ARG S6_OVERLAY_ARCH="aarch64"
 
 # add s6 overlay

@@ -82,10 +82,10 @@ libngtcp2-crypto-ossl0    1.22.1-1                   deb
 libnpth0t64               1.8-3+b2                   deb     
 libonig5                  6.9.10-1+b1                deb     
 libp11-kit0               0.26.2-3                   deb     
-libpam-modules            1.7.0-5+b2                 deb     
-libpam-modules-bin        1.7.0-5+b2                 deb     
-libpam-runtime            1.7.0-5                    deb     
-libpam0g                  1.7.0-5+b2                 deb     
+libpam-modules            1.7.0-6                    deb     
+libpam-modules-bin        1.7.0-6                    deb     
+libpam-runtime            1.7.0-6                    deb     
+libpam0g                  1.7.0-6                    deb     
 libpcre2-8-0              10.46-1+b2                 deb     
 libpsl5t64                0.21.5-1                   deb     
 libreadline8t64           8.3-4                      deb     

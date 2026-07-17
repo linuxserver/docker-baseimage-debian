@@ -2,7 +2,7 @@ NAME                     VERSION                         TYPE
 adduser                  3.152                           deb     
 apt                      3.0.3                           deb     
 apt-utils                3.0.3                           deb     
-base-files               13.8+deb13u5                    deb     
+base-files               13.8+deb13u6                    deb     
 base-passwd              3.6.7                           deb     
 bash                     5.2.37-2+b9                     deb     
 bash-completion          1:2.16.0-7                      deb     
@@ -13,7 +13,7 @@ catatonit                0.2.1-2+b13                     deb
 coreutils                9.7-3                           deb     
 cron                     3.0pl1-197                      deb     
 cron-daemon-common       3.0pl1-197                      deb     
-curl                     8.14.1-2+deb13u3                deb     
+curl                     8.14.1-2+deb13u4                deb     
 dash                     0.5.12-12                       deb     
 dbus                     1.16.2-2                        deb     
 dbus-bin                 1.16.2-2                        deb     
@@ -24,7 +24,7 @@ debconf                  1.5.91                          deb
 debian-archive-keyring   2025.1                          deb     
 debianutils              5.23.2                          deb     
 diffutils                1:3.10-4                        deb     
-dirmngr                  2.4.7-21+deb13u1+b3             deb     
+dirmngr                  2.4.7-21+deb13u1+b4             deb     
 dmsetup                  2:1.02.205-2                    deb     
 dpkg                     1.22.22                         deb     
 exim4-base               4.98.2-1+deb13u3                deb     
@@ -34,13 +34,13 @@ findutils                4.10.0-3                        deb
 gcc-14-base              14.2.0-19                       deb     
 gnupg                    2.4.7-21+deb13u1                deb     
 gnupg-l10n               2.4.7-21+deb13u1                deb     
-gnupg-utils              2.4.7-21+deb13u1+b3             deb     
-gpg                      2.4.7-21+deb13u1+b3             deb     
-gpg-agent                2.4.7-21+deb13u1+b3             deb     
-gpg-wks-client           2.4.7-21+deb13u1+b3             deb     
-gpgconf                  2.4.7-21+deb13u1+b3             deb     
-gpgsm                    2.4.7-21+deb13u1+b3             deb     
-gpgv                     2.4.7-21+deb13u1+b3             deb     
+gnupg-utils              2.4.7-21+deb13u1+b4             deb     
+gpg                      2.4.7-21+deb13u1+b4             deb     
+gpg-agent                2.4.7-21+deb13u1+b4             deb     
+gpg-wks-client           2.4.7-21+deb13u1+b4             deb     
+gpgconf                  2.4.7-21+deb13u1+b4             deb     
+gpgsm                    2.4.7-21+deb13u1+b4             deb     
+gpgv                     2.4.7-21+deb13u1+b4             deb     
 grep                     3.11-4                          deb     
 gzip                     1.13-1                          deb     
 hostname                 3.25                            deb     
@@ -66,7 +66,7 @@ libcap2                  1:2.75-10+deb13u1+b1            deb
 libcom-err2              1.47.2-3+b11                    deb     
 libcrypt1                1:4.4.38-1                      deb     
 libcryptsetup12          2:2.7.5-2                       deb     
-libcurl4t64              8.14.1-2+deb13u3                deb     
+libcurl4t64              8.14.1-2+deb13u4                deb     
 libdb5.3t64              5.3.28+dfsg2-9                  deb     
 libdbus-1-3              1.16.2-2                        deb     
 libdebconfclient0        0.280                           deb     
@@ -103,7 +103,7 @@ libldap2                 2.6.10+dfsg-1                   deb
 liblockfile-bin          1.17-2                          deb     
 liblockfile1             1.17-2                          deb     
 liblz4-1                 1.10.0-4                        deb     
-liblzma5                 5.8.1-1                         deb     
+liblzma5                 5.8.1-1+deb13u1                 deb     
 libmd0                   1.1.0-2+b1                      deb     
 libmount1                2.41-5                          deb     
 libncursesw6             6.5+20250216-2                  deb     
@@ -138,7 +138,7 @@ libssl3t64               3.5.6-1~deb13u2                 deb
 libstdc++6               14.2.0-19                       deb     
 libsystemd-shared        257.13-1~deb13u1                deb     
 libsystemd0              257.13-1~deb13u1                deb     
-libtasn1-6               4.20.0-2                        deb     
+libtasn1-6               4.20.0-2+deb13u1                deb     
 libtinfo6                6.5+20250216-2                  deb     
 libtirpc-common          1.3.6+ds-1                      deb     
 libtirpc3t64             1.3.6+ds-1                      deb     

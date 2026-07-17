@@ -2,7 +2,7 @@ NAME                    VERSION                         TYPE
 adduser                 3.134                           deb     
 apt                     2.6.1                           deb     
 apt-utils               2.6.1                           deb     
-base-files              12.4+deb12u14                   deb     
+base-files              12.4+deb12u15                   deb     
 base-passwd             3.6.1                           deb     
 bash                    5.2.15-2+b13                    deb     
 bsd-mailx               8.1.2-0.20220412cvs-1           deb     
@@ -12,7 +12,7 @@ catatonit               0.1.7-1+b2                      deb
 coreutils               9.1-1                           deb     
 cron                    3.0pl1-162                      deb     
 cron-daemon-common      3.0pl1-162                      deb     
-curl                    7.88.1-10+deb12u14              deb     
+curl                    7.88.1-10+deb12u15              deb     
 dash                    0.5.12-2                        deb     
 debconf                 1.5.82                          deb     
 debian-archive-keyring  2023.3+deb12u2                  deb     
@@ -59,7 +59,7 @@ libcap-ng0              0.8.3-1+b3                      deb
 libcap2                 1:2.66-4+deb12u3+b1             deb     
 libcom-err2             1.47.0-2+b2                     deb     
 libcrypt1               1:4.4.33-2                      deb     
-libcurl4                7.88.1-10+deb12u14              deb     
+libcurl4                7.88.1-10+deb12u15              deb     
 libdb5.3                5.3.28+dfsg2-1                  deb     
 libdebconfclient0       0.270                           deb     
 libevent-2.1-7          2.1.12-stable-8                 deb     
@@ -87,7 +87,7 @@ libldap-common          2.5.13+dfsg-5                   deb
 liblockfile-bin         1.17-1+b1                       deb     
 liblockfile1            1.17-1+b1                       deb     
 liblz4-1                1.9.4-1                         deb     
-liblzma5                5.4.1-1                         deb     
+liblzma5                5.4.1-1+deb12u1                 deb     
 libmd0                  1.0.4-2                         deb     
 libmount1               2.38.1-5+deb12u3                deb     
 libncursesw6            6.4-4                           deb     

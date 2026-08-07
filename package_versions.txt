@@ -45,7 +45,7 @@ grep                     3.11-4                          deb
 gzip                     1.13-1                          deb     
 hostname                 3.25                            deb     
 init-system-helpers      1.69~deb13u1                    deb     
-jq                       1.7.1-6+deb13u2                 deb     
+jq                       1.7.1-6+deb13u3                 deb     
 krb5-locales             1.21.3-5+deb13u1                deb     
 libacl1                  2.3.2-2+b1                      deb     
 libapparmor1             4.1.0-1                         deb     
@@ -89,7 +89,7 @@ libgssapi-krb5-2         1.21.3-5+deb13u1                deb
 libhogweed6t64           3.10.1-1                        deb     
 libidn12                 1.43-1                          deb     
 libidn2-0                2.3.8-2                         deb     
-libjq1                   1.7.1-6+deb13u2                 deb     
+libjq1                   1.7.1-6+deb13u3                 deb     
 libjson-c5               0.18+ds-1                       deb     
 libk5crypto3             1.21.3-5+deb13u1                deb     
 libkeyutils1             1.6.3-6                         deb     

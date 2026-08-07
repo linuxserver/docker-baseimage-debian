@@ -18,7 +18,7 @@ debianutils               5.23.2                     deb
 diffutils                 1:3.12-1                   deb     
 dirmngr                   2.4.9-7                    deb     
 dpkg                      1.23.7+kali1               deb     
-findutils                 4.10.0-4                   deb     
+findutils                 4.11.0-2                   deb     
 gcc-16-base               16.1.0-3                   deb     
 gnupg                     2.4.9-7                    deb     
 gnupg-l10n                2.4.9-7                    deb     
@@ -75,7 +75,7 @@ libmd0                    1.2.0-2                    deb
 libmount1                 2.42.2-1                   deb     
 libncursesw6              6.6+20260608-2             deb     
 libnettle8t64             3.10.2-1+b1                deb     
-libnghttp2-14             1.69.0-1                   deb     
+libnghttp2-14             1.70.0-1                   deb     
 libnghttp3-9              1.17.0-1                   deb     
 libngtcp2-16              1.24.0-1                   deb     
 libngtcp2-crypto-ossl0    1.24.0-1                   deb     
@@ -87,7 +87,7 @@ libpam-modules-bin        1.7.0-8                    deb
 libpam-runtime            1.7.0-8                    deb     
 libpam0g                  1.7.0-8                    deb     
 libpcre2-8-0              10.46-1+b2                 deb     
-libpsl5t64                0.23.0-1                   deb     
+libpsl5t64                0.23.1-1                   deb     
 libreadline8t64           8.3-4                      deb     
 libsasl2-2                2.1.28+dfsg1-11            deb     
 libsasl2-modules-db       2.1.28+dfsg1-11            deb     
@@ -98,7 +98,7 @@ libsemanage2              3.11-1                     deb
 libsepol2                 3.11-1                     deb     
 libsmartcols1             2.42.2-1                   deb     
 libsqlite3-0              3.46.1-9+b1                deb     
-libssh2-1t64              1.11.1-4                   deb     
+libssh2-1t64              1.11.1-5                   deb     
 libssl3t64                3.6.3-1                    deb     
 libstdc++6                16.1.0-3                   deb     
 libsystemd-shared         261.1-2                    deb     

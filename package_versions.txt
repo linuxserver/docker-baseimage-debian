@@ -101,7 +101,7 @@ libpam-modules          1.5.2-6+deb12u2                 deb
 libpam-modules-bin      1.5.2-6+deb12u2                 deb     
 libpam-runtime          1.5.2-6+deb12u2                 deb     
 libpam0g                1.5.2-6+deb12u2                 deb     
-libpcre2-8-0            10.42-1                         deb     
+libpcre2-8-0            10.42-1+deb12u1                 deb     
 libpsl5                 0.21.2-1                        deb     
 libreadline8            8.2-1.3                         deb     
 librtmp1                2.4+20151223.gitfa8646d.1-2+b2  deb     

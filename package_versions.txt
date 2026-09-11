@@ -116,7 +116,7 @@ libsepol2               3.4-2.1                         deb
 libsmartcols1           2.38.1-5+deb12u3                deb     
 libsqlite3-0            3.40.1-2+deb12u2                deb     
 libss2                  1.47.0-2+b2                     deb     
-libssh2-1               1.10.0-3+b1                     deb     
+libssh2-1               1.10.0-3+deb12u1                deb     
 libssl3                 3.0.20-1~deb12u2                deb     
 libstdc++6              12.2.0-14+deb12u1               deb     
 libsystemd0             252.39-1~deb12u2                deb     

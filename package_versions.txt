@@ -101,7 +101,7 @@ libpam-modules          1.5.2-6+deb12u2                 deb
 libpam-modules-bin      1.5.2-6+deb12u2                 deb     
 libpam-runtime          1.5.2-6+deb12u2                 deb     
 libpam0g                1.5.2-6+deb12u2                 deb     
-libpcre2-8-0            10.42-1+deb12u1                 deb     
+libpcre2-8-0            10.42-1+deb12u2                 deb     
 libpsl5                 0.21.2-1                        deb     
 libreadline8            8.2-1.3                         deb     
 librtmp1                2.4+20151223.gitfa8646d.1-2+b2  deb     
@@ -141,7 +141,7 @@ netbase                 6.4                             deb
 netcat-traditional      1.10-47                         deb     
 openssl                 3.0.22-1~deb12u1                deb     
 passwd                  1:4.13+dfsg1-1+deb12u2          deb     
-perl-base               5.36.0-7+deb12u3                deb     
+perl-base               5.36.0-7+deb12u4                deb     
 pinentry-curses         1.2.1-1                         deb     
 psmisc                  23.6-1                          deb     
 publicsuffix            20230209.2326-1                 deb     

@@ -1,7 +1,7 @@
 NAME                    VERSION                         TYPE   
 adduser                 3.134                           deb     
-apt                     2.6.1                           deb     
-apt-utils               2.6.1                           deb     
+apt                     2.6.2                           deb     
+apt-utils               2.6.2                           deb     
 base-files              12.4+deb12u15                   deb     
 base-passwd             3.6.1                           deb     
 bash                    5.2.15-2+b13                    deb     
@@ -43,7 +43,7 @@ init-system-helpers     1.65.2+deb12u1                  deb
 jq                      1.6-2.1+deb12u3                 deb     
 krb5-locales            1.20.1-2+deb12u5                deb     
 libacl1                 2.3.1-3                         deb     
-libapt-pkg6.0           2.6.1                           deb     
+libapt-pkg6.0           2.6.2                           deb     
 libassuan0              2.5.5-5                         deb     
 libattr1                1:2.5.1-4                       deb     
 libaudit-common         1:3.0.9-1                       deb     
@@ -105,9 +105,9 @@ libpcre2-8-0            10.42-1+deb12u2                 deb
 libpsl5                 0.21.2-1                        deb     
 libreadline8            8.2-1.3                         deb     
 librtmp1                2.4+20151223.gitfa8646d.1-2+b2  deb     
-libsasl2-2              2.1.28+dfsg-10                  deb     
-libsasl2-modules        2.1.28+dfsg-10                  deb     
-libsasl2-modules-db     2.1.28+dfsg-10                  deb     
+libsasl2-2              2.1.28+dfsg-10+deb12u1          deb     
+libsasl2-modules        2.1.28+dfsg-10+deb12u1          deb     
+libsasl2-modules-db     2.1.28+dfsg-10+deb12u1          deb     
 libseccomp2             2.5.4-1+deb12u1                 deb     
 libselinux1             3.4-1+b6                        deb     
 libsemanage-common      3.4-1                           deb     

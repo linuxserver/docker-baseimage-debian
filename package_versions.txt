@@ -3,10 +3,10 @@ apt                       3.3.6+kali1                deb
 apt-utils                 3.3.6+kali1                deb     
 base-files                1:2026.3.1                 deb     
 base-passwd               3.6.8                      deb     
-bash                      5.3-4                      deb     
+bash                      5.3-4+b1                   deb     
 bsdutils                  1:2.42.4-1                 deb     
 ca-certificates           20260816+nmu1              deb     
-catatonit                 0.2.1-2+b31                deb     
+catatonit                 0.2.1-2+b32                deb     
 coreutils                 9.10-1                     deb     
 cron                      3.0pl1-212                 deb     
 cron-daemon-common        3.0pl1-212                 deb     
@@ -19,7 +19,7 @@ diffutils                 1:3.12-1                   deb
 dirmngr                   2.4.9-8                    deb     
 dpkg                      1.23.11+kali1              deb     
 findutils                 4.11.0-3                   deb     
-gcc-16-base               16.2.0-3                   deb     
+gcc-16-base               16.2.0-4                   deb     
 gnupg                     2.4.9-8                    deb     
 gnupg-l10n                2.4.9-8                    deb     
 gpg                       2.4.9-8                    deb     
@@ -48,13 +48,13 @@ libc-gconv-modules-extra  2.43-7                     deb
 libc-l10n                 2.43-7                     deb     
 libc6                     2.43-7                     deb     
 libcap-ng0                0.9.6-1+b1                 deb     
-libcom-err2               1.47.4-1+b2                deb     
+libcom-err2               1.47.4-1+b3                deb     
 libcrypt1                 1:4.5.2+20251210-1         deb     
 libcurl4t64               8.22.0-1                   deb     
 libdb5.3t64               5.3.28+dfsg2-11+b1         deb     
 libdebconfclient0         0.283                      deb     
 libffi8                   3.8.0-2                    deb     
-libgcc-s1                 16.2.0-3                   deb     
+libgcc-s1                 16.2.0-4                   deb     
 libgcrypt20               1.12.4-2                   deb     
 libgmp10                  2:6.3.0+dfsg-5+b2          deb     
 libgnutls30t64            3.8.13-1                   deb     
@@ -100,7 +100,7 @@ libsmartcols1             2.42.4-1                   deb
 libsqlite3-0              3.53.4-2                   deb     
 libssh2-1t64              1.11.1-6                   deb     
 libssl3t64                3.6.5-1                    deb     
-libstdc++6                16.2.0-3                   deb     
+libstdc++6                16.2.0-4                   deb     
 libsystemd-shared         262-1                      deb     
 libsystemd0               262-1                      deb     
 libtasn1-6                4.21.0-2+b1                deb     
@@ -129,7 +129,7 @@ sensible-utils            0.0.26                     deb
 sqv                       1.5.0-1                    deb     
 systemd                   262-1                      deb     
 sysvinit-utils            3.18-1                     deb     
-tar                       1.35+dfsg-6                deb     
-tzdata                    2026e-1                    deb     
+tar                       1.35+dfsg-7                deb     
+tzdata                    2026f-1                    deb     
 util-linux                2.42.4-1                   deb     
 zlib1g                    1:1.3.dfsg+really1.3.2-3   deb     

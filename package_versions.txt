@@ -32,7 +32,7 @@ hostname                  3.25                       deb
 init-system-helpers       1.69+nmu3+kali1            deb     
 jq                        1.8.2-1                    deb     
 kali-archive-keyring      2025.3                     deb     
-kali-defaults             2026.3.2                   deb     
+kali-defaults             2026.4.1                   deb     
 libacl1                   2.4.0-1                    deb     
 libapt-pkg7.0             3.3.6+kali1                deb     
 libassuan9                3.0.2-2+b2                 deb     
@@ -40,7 +40,7 @@ libattr1                  1:2.6.0-1                  deb
 libaudit-common           1:4.1.2-1                  deb     
 libaudit1                 1:4.1.2-1+b2               deb     
 libblkid1                 2.42.4-1                   deb     
-libbrotli1                1.2.0-4+b2                 deb     
+libbrotli1                1.2.0-4.1                  deb     
 libbsd0                   0.12.2-3                   deb     
 libbz2-1.0                1.0.8-6+b2                 deb     
 libc-bin                  2.43-7                     deb     
@@ -86,7 +86,7 @@ libpam-modules            1.7.0-8                    deb
 libpam-modules-bin        1.7.0-8                    deb     
 libpam-runtime            1.7.0-8                    deb     
 libpam0g                  1.7.0-8                    deb     
-libpcre2-8-0              10.48-3.1                  deb     
+libpcre2-8-0              10.49-1                    deb     
 libpsl5t64                0.23.3-1                   deb     
 libreadline8t64           8.3-4                      deb     
 libsasl2-2                2.1.28+dfsg1-12            deb     
